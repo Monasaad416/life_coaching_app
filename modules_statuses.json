@@ -1,0 +1,7 @@
+{
+    "Category": true,
+    "Service": true,
+    "Attachment": true,
+    "Appointment": true,
+    "Review": true
+}
