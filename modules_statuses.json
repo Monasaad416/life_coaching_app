@@ -3,5 +3,6 @@
     "Service": true,
     "Attachment": true,
     "Appointment": true,
-    "Review": true
+    "Review": true,
+    "Order": true
 }

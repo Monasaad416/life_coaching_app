@@ -171,6 +171,9 @@ return [
         Spatie\Permission\PermissionServiceProvider::class,
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
         Nwidart\Modules\LaravelModulesServiceProvider::class,
+        Srmklive\PayPal\Providers\PayPalServiceProvider::class,
+        //BaklySystems\PayMob\PayMobServiceProvider::class,
+
     ])->toArray(),
 
     /*
@@ -187,6 +190,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+        'PayPal' => Srmklive\PayPal\Facades\PayPal::class
     ])->toArray(),
 
 ];

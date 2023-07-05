@@ -50,6 +50,10 @@ return [
             'driver' => 'session',
             'provider' => 'coaches',
         ],
+        // 'client-api' => [
+        //     'driver' => 'token',
+        //     'provider' => 'clients',
+        // ],
     ],
 
     /*

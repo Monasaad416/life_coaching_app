@@ -3,10 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\HomeController;
-use App\Http\Controllers\Admin\AdminProfileController;
-use App\Http\Controllers\Admin\ClientProfileController;
-use App\Http\Controllers\Admin\CoachProfileController;
 use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Front\CalendarController;
+use App\Http\Controllers\Admin\AdminProfileController;
+use App\Http\Controllers\Admin\CoachProfileController;
+use App\Http\Controllers\Admin\ClientProfileController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
@@ -58,6 +59,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
     require __DIR__.'/coach_auth.php';
 
 
+    Route::get('/calendar', [CalendarController::class, 'getCalendarEvents']);
+    Route::get('lf_modules.test/google-calendar/callback',[CalendarController::class, 'googleCalendarCallback']);
+
+
 });
 
 
@@ -71,5 +76,15 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+
+
+
+
+
+
+
+
 
 

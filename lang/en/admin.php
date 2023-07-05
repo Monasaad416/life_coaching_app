@@ -26,7 +26,7 @@ return [
     'roles' => 'Roles',
     'roles_list' => 'Roles List',
     'create_role' => 'Add Role',
-    'edit_role' => 'Edit Role', 
+    'edit_role' => 'Edit Role',
     'delete_role' => 'Delete Role',
 
     'categories' => 'Categories',
@@ -71,8 +71,8 @@ return [
     'service_created_successfully' => 'Service Created Successfully',
     'service_updated_successfully' => 'Service Updated Successfully',
     'service_deleted_successfully' => 'Service Deleted Successfully',
-   
-    
+
+
     'edit' => 'Update',
     'delete' => 'Delete',
     'close' => 'Close',
@@ -177,6 +177,15 @@ return [
     'review_created_successfully' => 'Review Created Successfully',
     'review_updated_successfully' => 'Review Updated Successfully',
     'review_deleted_successfully' => 'Review Deleted Successfully',
+
+    'orders' => 'My Orders',
+    'all_orders' => 'Orders',
+    'create_payment' => 'Create Payment Method',
+
+
+
+
+
 
 
 

@@ -86,7 +86,7 @@ return [
     'delete_appointment_from_list'=>'حذف موعد من قائمة المواعيد',
     'delete_role_from_list' => 'حذف مهمة من قائمة المهام',
     'delete_review_from_list' => 'حذف تعليق من قائمة التعليقات',
-    
+
 
 
     'users' => 'المستخدمين',
@@ -189,7 +189,11 @@ return [
     'review_created_successfully' => 'تم إضافة تعليق جديد بنجاح',
     'review_updated_successfully' => 'تم تعديل التعليق بنجاح',
     'review_deleted_successfully' => 'تم حذف التعليق بنجاح',
-  
+
+    'orders' => 'طلباتي',
+    'all_orders' => 'الطلبات',
+    'create_payment' => 'إنشاء عملية الدفع',
+
 
 
 
